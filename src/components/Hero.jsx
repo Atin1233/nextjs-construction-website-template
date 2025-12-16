@@ -1,5 +1,3 @@
-import NextLink from './NextLink';
-
 /**
  * Hero component - displays a fullscreen hero section with background image,
  * headline, subheadline, and a call-to-action button.
@@ -25,22 +23,24 @@ const Hero = () => {
           <div className="row d-flex justify-content-center align-items-center">
             <div className="text-center">
               {/* Main headline with animation */}
-              <h3 className="fs-56 ls-xl text-white mb-3 animate__animated animate__zoomIn animate__delay-1s oswald">
-                Residential Construction Company in Location
-              </h3>
+              <h1 className="fs-56 ls-xl text-white mb-3 animate__animated animate__zoomIn animate__delay-1s oswald">
+                ON-SITE Metal Fabrication, Certified Welding, & 24-Hour Emergency Service
+              </h1>
 
               {/* Subheadline with animation */}
               <p className="fs-26 text-white mb-5 animate__animated animate__zoomIn animate__delay-2s roboto">
-                We Don't Just Build Homes, We Shape Your Future.
+                We come to you. Professional mobile welding and metal fabrication in Nassau.
               </p>
 
-              {/* Call-to-action button with slide-in animation */}
+              {/* Call-to-action button with phone number - Safety Orange */}
               <div className="d-inline link animate__animated animate__slideInUp animate__delay-3s position-relative z-2">
-                <NextLink
-                  title="Know More"
-                  href="/about-us"
-                  className="btn btn-sm primary-bg text-white rounded d-inline"
-                />
+                <a
+                  href="tel:5162659889"
+                  className="btn btn-lg primary-bg text-white rounded d-inline fw-bold"
+                  style={{ backgroundColor: '#FF9900', fontSize: '1.5rem', padding: '1rem 2rem' }}
+                >
+                  CALL NOW (516) 265-9889
+                </a>
               </div>
             </div>
           </div>

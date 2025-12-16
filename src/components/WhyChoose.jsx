@@ -27,14 +27,14 @@ const WhyChoose = () => {
       {/* Text Content Section - shown first on larger screens */}
       <div className="order-lg-1 col-lg-6">
         {/* Section label */}
-        <h3 className="fs-16 py-2 px-3 text-main d-inline rounded-pill oswald">
+        <h3 className="fs-16 py-2 px-3 primary-bg-soft text-main d-inline rounded-pill oswald">
           Why Choose Us ?
         </h3>
 
         {/* Main headline */}
-        <h2 className="mb-5 mt-3 justify-content-start oswald">
-          Transforming Residential
-          <span className="ms-2"> Construction</span> in Location
+        <h2 className="mb-5 mt-3 justify-content-start oswald text-white">
+          Professional Mobile Welding & Metal Fabrication
+          <span className="ms-2 text-white"> in Nassau</span>
         </h2>
 
         {/* List of reasons with icons */}

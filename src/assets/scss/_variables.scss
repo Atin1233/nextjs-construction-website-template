@@ -151,12 +151,12 @@ $gray-400: #aab0bc !default;
 $gray-500: #959ca9 !default;
 $gray-600: #60697b !default;
 $gray-700: #2f353a !default;
-$gray-800: #21262c !default;
-$gray-900: #1e2228 !default;
+$gray-800: #282c34 !default; // Deep Charcoal Gray
+$gray-900: #282c34 !default; // Deep Charcoal Gray - Primary background
 $error: #de4747 !default;
 $light: $gray-100 !default;
 $gray: $gray-200 !default;
-$dark: #262b32 !default;
+$dark: #282c34 !default; // Deep Charcoal Gray
 $inverse: $gray-300 !default;
 $border: #a4aec6 !default;
 $border-light: rgba($border, 0.2) !default;
@@ -164,7 +164,7 @@ $box-layout-bg: #edeef1 !default;
 $shadow-border: #083c82 !default;
 $feedback-success: #198754;
 $feedback-danger: #dc3545;
-$primary: $blue !default;
+$primary: #FF9900 !default; // Safety Orange - Primary accent color
 $colors: (
   'blue': $blue,
   'sky': $sky,
@@ -209,8 +209,8 @@ $button-soft-colors: map-remove($colors, 'white', 'light', 'gray') !default;
 $bg-pale-colors: map-remove($colors, 'white', 'light', 'gray') !default;
 $bg-soft-colors: map-remove($colors, 'white', 'light', 'yellow') !default;
 $bullet-colors: map-remove($colors, 'yellow') !default;
-$main-color: $primary !default;
-$main-dark: $navy !default;
+$main-color: #FF9900 !default; // Safety Orange
+$main-dark: #282c34 !default; // Deep Charcoal Gray
 $bg-soft-level: 90.5% !default;
 $bg-soft-yellow-level: 90% !default;
 $bg-pale-level: 84% !default;
@@ -354,8 +354,8 @@ $brand-colors: (
 //----------------------------------------------------------//
 //	BODY
 //----------------------------------------------------------//
-$body-bg: $gray-100 !default;
-$body-color: $gray-600 !default;
+$body-bg: #282c34 !default; // Deep Charcoal Gray background
+$body-color: #FFFFFF !default; // White text for readability
 //----------------------------------------------------------//
 //	LINKS
 //----------------------------------------------------------//
@@ -443,7 +443,7 @@ $h4-line-height: 1.45 !default;
 $h5-line-height: 1.5 !default;
 $h6-line-height: 1.55 !default;
 $headings-font-weight: 700 !default;
-$headings-color: $main-dark !default;
+$headings-color: #FFFFFF !default; // White headings
 $display-font-sizes: (
   1: 2.4rem,
   2: 2.2rem,
